@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../img/header_background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*vh = altura
+vw = anchura */
+
+#header h1 {
+    color: white;
+    margin: 0;
+    padding: 0 25% 0 35%;
+    /* Arriba, derecha, abajo, izquierda. Igual que las agujas del relog.*/
+    font-size: 50px;
+}
+
+#main {
+    padding: 0 20%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        padding: 0 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding: 0 1%;
+    }
+    #main p {
+        font-size: 15px;
+    }
+    #main h1 {
+        font-size: 35px;
+    }
+}
