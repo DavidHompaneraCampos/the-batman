@@ -122,13 +122,28 @@ a {
         padding: 0 1%;
         font-size: 40px;
     }
-    #main {
+    #main,
+    #paragraph2,
+    #lastp3,
+    #div4,
+    #div5,
+    #div6 {
         padding: 0 1%;
     }
-    #main p {
+    #main p,
+    #paragraph2 p,
+    #lastp3 p,
+    #div4 p,
+    #div5 p,
+    #div6 p {
         font-size: 15px;
     }
-    #main h1 {
+    #main h1,
+    #paragraph2 h2,
+    #lastp3 h2,
+    #div4 h2,
+    #div5 h2,
+    #div6 h2 {
         font-size: 35px;
     }
 }
