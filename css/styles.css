@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Press+Start+2P&family=Quicksand&display=swap');
 body {
     margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #header {
@@ -7,6 +11,9 @@ body {
     background-image: url(../img/header_background.jpeg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -31,6 +38,83 @@ vw = anchura */
 
 #main h1 {
     font-size: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+#paragraph2 {
+    padding: 0 20%;
+}
+
+#paragraph2 p {
+    font-size: 20px;
+}
+
+#paragraph2 h2 {
+    font-size: 40px;
+}
+
+#lastp3 {
+    padding: 0 20%;
+}
+
+#lastp3 p {
+    font-size: 20px;
+}
+
+#lastp3 h2 {
+    font-size: 40px;
+}
+
+#lastp3 h2 {
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+#div4 {
+    padding: 0 20%;
+}
+
+#div4 p {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+#div5 {
+    padding: 0 20%;
+}
+
+#div5 p {
+    font-size: 20px;
+}
+
+#div5 h2 {
+    font-size: 40px;
+}
+
+#div6 {
+    padding: 0 20%;
+}
+
+#div6 p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
